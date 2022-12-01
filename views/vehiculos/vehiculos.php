@@ -18,10 +18,29 @@
 <title><?php echo $data["titulo"]; ?></title>
 </head>
 
-
 <body>
-    
-      
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">WEBSITE</a>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link" href="#">INICIO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">CONTACTO</a>
+      </li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li class="nav-item">
+        <a class="nav-link" href="views/vehiculos/login.php">INICIAR SESIÓN</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 <div class="jumbotron" style="background-color: #F8F8F8;" >                   
               
               <div class="container text-center p-4">
